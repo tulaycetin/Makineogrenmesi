@@ -55,20 +55,7 @@ Eğitim düzeyine, cinsiyete, medeni duruma, çocuk sayısına, patronluğa ve m
 
 Model eğitildikten sonra, bir örnek veri seti oluşturulup model tahmin değerleri alınır. Veri setindeki sütunlar eğitimde kullanılan sütun isimleriyle aynı isim ve sırada olmalıdır.
 
-## 9. Veri Seti
 
-- **ApplicantIncome** (Gelir Düzeyi): Olduğu Gibi Kalacak.
-- **CoapplicantIncome** (Ek Gelir Düzeyi): Olduğu Gibi Kalacak.
-- **LoanAmount** (Kredi Miktarı): Olduğu Gibi Kalacak.
-- **Loan_Amount_Term** (Kredi Vadesi): Olduğu Gibi Kalacak.
-- **Credit_History** (Önceden Kredi Almış mı): Olduğu Gibi Kalacak.
-- **Loan_Status** (Krediye Uygun): Eğitim ve test setinden silinip `y` değerine kopyalanır.
-
-## 10. Gelecek Çalışmalar
-
-- Daha farklı modelleme teknikleri (Random Forest, XGBoost) kullanılarak performans artırılabilir.
-- Eksik veri işleme yöntemlerinde daha sofistike teknikler kullanılabilir.
-- Model hiperparametre optimizasyonu için daha kapsamlı bir GridSearchCV yapılabilir.
 
 ## Kullanılan Kütüphaneler
 
